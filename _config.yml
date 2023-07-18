@@ -103,4 +103,4 @@ page-mathjax: false
 
 # Theme
 theme: merlot
-route_theme: merlot
+remote_theme: merlot
