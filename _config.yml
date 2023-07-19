@@ -74,7 +74,7 @@ ba_track_id: c7df11a77eb783396b3032b218b3f9b2
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
+sidebar-about-description: "我爱这生活。"
 sidebar-avatar: img/avatar-lbx.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
