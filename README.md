@@ -2,7 +2,7 @@
 
 ![](https://github.com/labixiong/labixiong.github.io/blob/main/img/store/read-me/blog-home.png?raw=true)
 
-[![Build Status](https://travis-ci.org/labixiong/labixiong.github.io.svg?branch=master)](https://travis-ci.org/labixiong/labixiong.github.io)
+[![Build Status](https://travis-ci.org/labixiong/labixiong.github.io.svg?branch=main)](https://travis-ci.org/labixiong/labixiong.github.io)
 [![codebeat badge](https://codebeat.co/badges/5f031df3-f6c1-4ec0-911a-ff6617ca50b9)](https://codebeat.co/projects/github-com-labixiong-labixiong-github-io-master)
 [![GitHub issues](https://img.shields.io/github/issues/labixiong/labixiong.github.io.svg?style=flat)](https://github.com/labixiong/labixiong.github.io/issues)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/home-assistant/home-assistant-iOS/blob/master/LICENSE)
