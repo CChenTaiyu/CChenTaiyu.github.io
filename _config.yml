@@ -75,7 +75,7 @@ ba_track_id: bade937f1e77acfeb4fa77b726e60a98
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Be wonderful"
-sidebar-avatar: https://github.com/CChenTaiyu/CChenTaiyu.github.io/blob/e220c6c6a154a9460bdfd615a802443452bbc447/img/profile-image.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/profile-image.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
