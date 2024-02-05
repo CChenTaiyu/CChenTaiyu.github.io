@@ -25,7 +25,7 @@ tags:
 
 
 ### 1.2 Apache Hadoop
-<font face=consolas>Hadoop has three distribution versions: Apache, Cloudera, Hortonworks. Apache version is comfortable for rookie(like me) because it is the most basic version. The official website of Apache Hadoop is: [http://hadoop.apache.org/](http://hadoop.apache.org/). </font>
+<font face=consolas>Hadoop has three distribution versions: Apache, Cloudera, Hortonworks. Apache version is comfortable for rookie(like me) because it is the most basic version. The official website of Apache Hadoop is:</font> [http://hadoop.apache.org/](http://hadoop.apache.org/).
 
 ### 1.3 Architecture of Hadoop
 - <font face=consolas>Hadoop 1.x version: It contains Common, HDFS and MapReduce. MapReduce handles both logic operations and resource scheduling, with high coupling. </font>
@@ -49,27 +49,25 @@ tags:
 ![HDFS Architecture](https://github.com/CChenTaiyu/CChenTaiyu.github.io/blob/main/img/store/article/hadoop2.jpg?raw=true)
 
 ### 2.2 Yarn Architecture
-<font face=consolas>The full name of Yarn is Yet Another Resource Negotiator, It is a resource manager for Hadoop.
+<font face=consolas>The full name of Yarn is Yet Another Resource Negotiator, It is a resource manager for Hadoop.</font>
 
-- **ResourceManager(RM)**: The boss of the entire cluster resources(memory, CPU).
+- **ResourceManager(RM)**: <font face=consolas>The boss of the entire cluster resources(memory, CPU).</font>
 
-- **NodeManager(NM)**: The boss of single node server resources
+- **NodeManager(NM)**: <font face=consolas>The boss of single node server resources.</font>
 
-- **ApplicationMaster(AM)**: The boss of a single running task.
+- **ApplicationMaster(AM)**: <font face=consolas>The boss of a single running task.</font>
 
-- **Container**: Equivalent to an independent server, encapsulating the resources required for task running.
+- **Container**: <font face=consolas>Equivalent to an independent server, encapsulating the resources required for task running.</font>
 
 ![Yarn Architecture](https://github.com/CChenTaiyu/CChenTaiyu.github.io/blob/main/img/store/article/hadoop3.jpg?raw=true)
-</font>
 
 ### 2.2 MapReduce Architecture
-<font face=consolas>MapReduce divides the calculation process into two stages: Map and Reduce.
+<font face=consolas>MapReduce divides the calculation process into two stages: Map and Reduce.</font>
 
-- **Map**: The Map stage processes input data in parallel.
+- **Map**: <font face=consolas>The Map stage processes input data in parallel.</font>
 
-- **Reduce**: Reduce stage summarizes Map results.
+- **Reduce**: <font face=consolas>Reduce stage summarizes Map results.</font>
 
 ![MapReduce Architecture](https://github.com/CChenTaiyu/CChenTaiyu.github.io/blob/main/img/store/article/hadoop4.jpg?raw=true)
-</font>
 
 
