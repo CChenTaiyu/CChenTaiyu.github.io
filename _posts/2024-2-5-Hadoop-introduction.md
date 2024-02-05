@@ -25,31 +25,38 @@ tags:
 
 
 ### 1.2 Apache Hadoop
-<font face=consolas>Hadoop has three distribution versions: Apache, Cloudera, Hortonworks. Apache version is comfortable for rookie(like me) because it is the most basic version. The official website of Apache Hadoop is: http://hadoop.apache.org/. </font>
+<font face=consolas>Hadoop has three distribution versions: Apache, Cloudera, Hortonworks. Apache version is comfortable for rookie(like me) because it is the most basic version. The official website of Apache Hadoop is: [http://hadoop.apache.org/](http://hadoop.apache.org/). </font>
 
 ### 1.3 Architecture of Hadoop
 - <font face=consolas>Hadoop 1.x version: It contains Common, HDFS and MapReduce. MapReduce handles both logic operations and resource scheduling, with high coupling. </font>
 - <font face=consolas>Hadoop 2.x version: It contains Common, HDFS Yarn and MapReduce. Compared to version 1.x, Yarn is responsible for resource scheduling and MapReduce is responsible for computation. </font>
 - <font face=consolas>Hadoop 3.x version: Its architecture is same with 2.x version. </font>
 
-![Hadoop versions](../img/hadoop1.jpg)
+![Hadoop versions](https://github.com/CChenTaiyu/CChenTaiyu.github.io/blob/main/img/store/article/hadoop1.jpg?raw=true)
 
 ## 2. HDFS, Yarn and MapReduce
 <a name="section-2"></a>
 
 ### 2.1 HDFS Architecture
 <font face=consolas>The full name of HDFS is Hadoop File Distributed System, it contains three main components.
+
 - **NameNode(nn)**: Store metadata for files, such as file name, structure of directory, file attributes(generation times, number of copies, permission), as well as the list of blocks for each file and the DataNode where the blocks are located.
+
 - **DataNode(dn)**: Store file block data and checksum of block data in the local file system.
+
 - **Secondary NameNode(2nn)**: Backup NameNode metadata periodically.</font>
 
 ![HDFS Architecture](../img/hadoop2.jpg)
 
 ### 2.2 Yarn Architecture
 <font face=consolas>The full name of Yarn is Yet Another Resource Negotiator, It is a resource manager for Hadoop.
+
 - **ResourceManager(RM)**: The boss of the entire cluster resources(memory, CPU).
+
 - **NodeManager(NM)**: The boss of single node server resources
+
 - **ApplicationMaster(AM)**: The boss of a single running task.
+
 - **Container**: Equivalent to an independent server, encapsulating the resources required for task running.
 
 ![Yarn Architecture](../img/hadoop3.jpg)
@@ -57,7 +64,9 @@ tags:
 
 ### 2.2 MapReduce Architecture
 <font face=consolas>MapReduce divides the calculation process into two stages: Map and Reduce.
+
 - **Map**: The Map stage processes input data in parallel.
+
 - **Reduce**: Reduce stage summarizes Map results.
 
 ![MapReduce Architecture](../img/hadoop4.jpg)
