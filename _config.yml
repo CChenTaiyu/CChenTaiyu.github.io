@@ -1,7 +1,7 @@
 # Site settings
 title: Noob24 Blog
 SEOTitle: 我的博客 | Noob24
-header-img: img/home-bg-2.jpg
+header-img: img/header-image.jpg
 email: tchen720@connect.hkust-gz.edu.cn
 description: "hi"
 keyword: ""
@@ -75,7 +75,7 @@ ba_track_id: bade937f1e77acfeb4fa77b726e60a98
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "Be wonderful"
-sidebar-avatar: img/avatar-lbx.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/profile-image.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
