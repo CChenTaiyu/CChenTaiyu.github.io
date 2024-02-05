@@ -38,15 +38,15 @@ tags:
 <a name="section-2"></a>
 
 ### 2.1 HDFS Architecture
-<font face=consolas>The full name of HDFS is Hadoop File Distributed System, it contains three main components.
+<font face=consolas>The full name of HDFS is Hadoop File Distributed System, it contains three main components.</font>
 
-- **NameNode(nn)**: Store metadata for files, such as file name, structure of directory, file attributes(generation times, number of copies, permission), as well as the list of blocks for each file and the DataNode where the blocks are located.
+- **NameNode(nn)**: <font face=consolas>Store metadata for files, such as file name, structure of directory, file attributes(generation times, number of copies, permission), as well as the list of blocks for each file and the DataNode where the blocks are located.</font>
 
-- **DataNode(dn)**: Store file block data and checksum of block data in the local file system.
+- **DataNode(dn)**: <font face=consolas>Store file block data and checksum of block data in the local file system.</font>
 
-- **Secondary NameNode(2nn)**: Backup NameNode metadata periodically.</font>
+- **Secondary NameNode(2nn)**: <font face=consolas>Backup NameNode metadata periodically.</font>
 
-![HDFS Architecture](../img/hadoop2.jpg)
+![HDFS Architecture](https://github.com/CChenTaiyu/CChenTaiyu.github.io/blob/main/img/store/article/hadoop2.jpg?raw=true)
 
 ### 2.2 Yarn Architecture
 <font face=consolas>The full name of Yarn is Yet Another Resource Negotiator, It is a resource manager for Hadoop.
@@ -59,7 +59,7 @@ tags:
 
 - **Container**: Equivalent to an independent server, encapsulating the resources required for task running.
 
-![Yarn Architecture](../img/hadoop3.jpg)
+![Yarn Architecture](https://github.com/CChenTaiyu/CChenTaiyu.github.io/blob/main/img/store/article/hadoop3.jpg?raw=true)
 </font>
 
 ### 2.2 MapReduce Architecture
@@ -69,7 +69,7 @@ tags:
 
 - **Reduce**: Reduce stage summarizes Map results.
 
-![MapReduce Architecture](../img/hadoop4.jpg)
+![MapReduce Architecture](https://github.com/CChenTaiyu/CChenTaiyu.github.io/blob/main/img/store/article/hadoop4.jpg?raw=true)
 </font>
 
 
